@@ -1,0 +1,49 @@
+body {
+    background-color: #595959;
+    font-family: arial;
+    font-size: 14px;
+}
+#caption {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #A4AEAC;
+}
+
+dt {
+    font-style: italic;
+    color: white;
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+dd {
+    width: 85%;
+    margin-left: 145px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    color: #FEF2B2;
+}
+
+#person-name:before {
+    display: inline-block;
+    content: "";
+    border: 6px #71B47A solid;
+    border-radius: 20px;
+}
+
+strong {
+    color: #EA0205;
+}
+
+.additional-information {
+    color: #A8AA8F;
+}
+
+a {
+    text-decoration: none;
+    color: #FEF2B2;
+}
+
+#status {
+    color: #CB682A
+}
