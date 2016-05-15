@@ -26,6 +26,7 @@ div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
 body {
     font: 14px normal Arial;
     color: white;
+    background: linear-gradient(to bottom, #d690fe 0%,#9015f0 30%,#9215f2 100%);
 }
 
     body header {
@@ -62,16 +63,20 @@ body {
                     border-radius: 10px;
                     padding: 2px 5px;
                     margin: 5px;
+                    background-color: #B35EF3
                 }
 
             body header div#header-container div#reg-form-container button {
                 margin-left: auto;
                 margin-right: auto;
                 font-weight: bold;
-                border: 1px solid #603382;
+                background-color: #B35EF3;
+                color: white;
+                /*border: 1px solid #603382;*/
                 border-style: outset;
                 border-radius: 10px;
                 padding: 5px 8px;
+                box-shadow: -1px -1px white, 1px 1px #603382;
             }
 
                 body header div#header-container div#reg-form-container button:hover {
@@ -84,7 +89,8 @@ body {
             width: 75%;
             margin: 20px 20px 20px 20px;
             padding: 12px;
-            border: 2px solid #000;
+            border: 2px solid #6820A0;
+            border-radius: 10px;
         }
 
             body header nav ul.nav-list {
@@ -148,7 +154,9 @@ body {
         body section article {
             margin: 20px;
             padding: 20px;
-            border: 1px solid black;
+            border: 2px solid #4A0B79;
+            border-radius: 10px;
+            color: white;
         }
 
             body section article header {
@@ -177,6 +185,7 @@ body {
 
                     body section article footer p a {
                         text-decoration: none;
+                        color: #aaaaaa;
                     }
 
                         body section article footer p a:hover {
@@ -196,7 +205,7 @@ body {
             body aside > ul > li {
                 margin: 15px 0;
                 padding: 15px;
-                border: 1px solid black;
+                border: 2px solid #4A0B79;
                 border-radius: 5px;
             }
 
@@ -259,4 +268,5 @@ body {
         body footer p {
             font-size: 1.2em;
             font-weight: bold;
+            text-align: center;
         }
