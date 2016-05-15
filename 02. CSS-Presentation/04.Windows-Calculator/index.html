@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+    <head>
+        <title>Windows Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="window">
+        <div id="caption">
+            Calculator
+        </div>
+        <div id="buttons"></div>
+        <div id="main">
+            <div id="menu">
+                <span class="ulChar">V</span>iew <span class="ulChar">E</span>dit <span class="ulChar">H</span>elp
+            </div>
+            <div id="display">
+                <span id="numbers">885445</span>
+            </div>
+            <table id="infoPanel">
+                <tr>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td>63</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>47</td>
+                    <td></td>
+                    <td></td>
+                    <td class="rightAlign">&nbsp;&nbsp;&nbsp;&nbsp;32</td>
+                </tr>
+                <tr><td>0000</td>
+                    <td>0000</td>
+                    <td>1000</td>
+                    <td>0111</td>
+                    <td>0001</td>
+                    <td>1011</td>
+                    <td>1011</td>
+                    <td>0111</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>15</td>
+                    <td></td>
+                    <td></td>
+                    <td class="rightAlign">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</td>
+                </tr>
+            </table>
+            <table id="numpad">
+                <tr>
+                    <td colspan="2" rowspan="3" class="radioGroup">
+                        <form>
+                            <input type="radio" name="baseRB" /><span>Hex</span><br />
+                            <input type="radio" name="baseRB" checked="checked" /><span>Dec</span><br />
+                            <input type="radio" name="baseRB" /><span>Oct</span><br />
+                            <input type="radio" name="baseRB" /><span>Bin</span>
+                        </form>
+                    </td>
+                    <td></td>
+                    <td class="backgrd">Mod</td>
+                    <td class="largerFont">A</td>
+                    <td>MC</td>
+                    <td>MR</td>
+                    <td>MS</td>
+                    <td>M+</td>
+                    <td>M-</td>
+                </tr>
+                <tr>
+                    <td class="backgrd">(</td>
+                    <td class="backgrd">)</td>
+                    <td class="largerFont">B</td>
+                    <td class="largerFont backgrd">&#8592;</td>
+                    <td class="backgrd">CE</td>
+                    <td class="backgrd">C</td>
+                    <td class="backgrd">&#177;</td>
+                    <td>&radic;</td>
+                </tr>
+                <tr>
+                    <td class="backgrd">RoL</td>
+                    <td class="backgrd">RoR</td>
+                    <td class="largerFont">C</td>
+                    <td class="largerFont backgrd">7</td>
+                    <td class="largerFont backgrd">8</td>
+                    <td class="largerFont backgrd">9</td>
+                    <td class="backgrd">/</td>
+                    <td>%</td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="3" class="radioGroup">
+                        <form>
+                            <input type="radio" name="wordRB" checked="checked" /><span>Qword</span><br />
+                            <input type="radio" name="wordRB" /><span>Dword</span><br />
+                            <input type="radio" name="wordRB" /><span>Word</span><br />
+                            <input type="radio" name="wordRB" /><span>Byte</span>
+                        </form>
+                    </td>
+                    <td class="backgrd">Or</td>
+                    <td class="backgrd">Xor</td>
+                    <td class="largerFont">D</td>
+                    <td class="largerFont backgrd">4</td>
+                    <td class="largerFont backgrd">5</td>
+                    <td class="largerFont backgrd">6</td>
+                    <td class="largerFont backgrd">*</td>
+                    <td>1/x</td>
+                </tr>
+                <tr>
+                    <td class="backgrd">Lsh</td>
+                    <td class="backgrd">Rsh</td>
+                    <td class="largerFont">E</td>
+                    <td class="largerFont backgrd">1</td>
+                    <td class="largerFont backgrd">2</td>
+                    <td class="largerFont backgrd">3</td>
+                    <td class="largerFont backgrd">-</td>
+                    <td class="largerFont backgrd" rowspan="2">=</td>
+                </tr>
+                <tr>
+                    <td class="backgrd">Not</td>
+                    <td class="backgrd">And</td>
+                    <td class="largerFont">F</td>
+                    <td class="largerFont backgrd" colspan="2">0</td>
+                    <td>.</td>
+                    <td class="largerFont backgrd">+</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </body>
+</html>
