@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    width: 700px;
+    border: 1px solid black;
+}
+
+nav {
+    font-size: 1.44em;
+    font-weight: bold;
+    text-align: center;
+    padding: 11px;
+    border-bottom: 1px solid black;
+    margin: 0 25px 0 25px;
+}
+
+nav > a {
+    color: #00aef0;
+}
+
+main {
+    display: inline-block;
+    width: 465px;
+    border: 1px solid black;
+    padding: 7px;
+    margin: 12px;
+}
+
+article {
+    width: 230px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.left, .right {
+    display: inline-block;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: 25px;
+}
+
+aside > form {
+    width: 180px;
+}
+
+aside > form > div, aside > form > input {
+    width: 170px;
+      margin-bottom: 36px;
+}
+
+.leftAlign {
+    float: left;
+}
+
+.rightAlign {
+    float: right;
+}

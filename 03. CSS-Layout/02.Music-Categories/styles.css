@@ -1,0 +1,54 @@
+body {
+    width: 425px;
+    padding: 15px;
+    border: 1px solid black;
+    font-family: Arial;
+    font-size: small;
+    background-color: #eeeeee;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+article {
+      border: 1px solid black;
+      padding: 20px;
+      margin: 40px 0 35px 0;
+      background-color: white;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #aaaaa8;
+}
+
+p {
+    margin: 0;
+    height: 86px;
+    vertical-align: top;
+}
+
+div {
+    display: inline;
+    float: right;
+    position: relative;
+    bottom: 21px;
+}
+
+button {
+    height: 26px;
+    color: white;
+}
+
+.lBtn {
+    width: 78px;
+    background-image: url(images/bigBtn.png);
+}
+
+.aBtn {
+    width: 64px;
+    background-image: url(images/smallBtn.png);
+    margin-left: 5px;
+}

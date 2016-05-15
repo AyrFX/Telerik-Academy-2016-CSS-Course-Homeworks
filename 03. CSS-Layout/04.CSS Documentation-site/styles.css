@@ -1,0 +1,131 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial;
+}
+
+nav {
+    width: 18%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 7px;
+}
+
+#homeLink {
+    font-weight: bold;
+}
+
+nav > section > header {
+    margin-top: 10%;
+    color: #981e1d;
+    font-weight: bold;
+}
+
+nav > section > a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    width: 60%;
+    margin: 4px;
+    padding: 0.4%;
+    display: inline-block;
+    border: 1px solid #909090;
+    background-color: white;
+}
+
+main > header {
+    border-bottom: 1px solid #909090;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+}
+
+main > footer {
+    border-bottom: 1px solid #909090;
+    border-top: 1px solid #909090;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+}
+
+main > article {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.navButton {
+    display: inline-block;
+    width: 100px;
+    height: 18px;
+    border: 1px solid black;
+    color: black;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 3px;
+}
+
+main > article > header {
+    background-color: #808080;
+    color: white;
+    padding-left: 3px;
+    padding-top: 1px;
+}
+
+article > img {
+    float: left;
+    margin: 7px;
+    margin-top: 16px;
+}
+
+article > a {
+    color: #981e1d;
+}
+
+aside {
+    width: 19%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+aside > section {
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 3px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.withHeader {
+    padding-top: 0;
+}
+
+aside > section > header {
+    background-color: #808080;
+    color: white;
+    padding-top: 1px;
+    margin-bottom: 7px;
+}
+
+aside > section > a {
+    color: #981e1d;
+}
+
+aside > section > form {
+    margin-bottom: 3px;
+}
+
+aside > section > button {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-image: url(images/button.png);
+    background-position: center;
+    margin-bottom: 3px;
+    color: #41cdfe;
+}
