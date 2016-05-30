@@ -1,2 +1,0 @@
-phantomjs "judge.js"
-pause
